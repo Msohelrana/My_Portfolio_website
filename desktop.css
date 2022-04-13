@@ -1,0 +1,94 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* navbar design starts from here */
+.nav-logo{
+    text-align: left;
+}
+.nav-heading h1{
+    text-align: right;
+}
+.nav-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.nav-menu a{
+    background-color: transparent;
+    margin: 20px 0px;
+    padding: 5px 10px;
+}
+/* navbar design starts from here */
+/* Profile design starts here */
+.profile .top-weather{
+    position: absolute;
+    right: 100px;
+    top: 20px;
+    transition: width 2s,transform 2s;
+}
+.profile-desc p{
+    color: gray;
+    margin: 0px auto ;
+    text-align: center;
+    width:50%;
+}
+.profile .bottom-weather{
+    position: absolute;
+    left: 140px;
+}
+
+
+/* Profile design ends here */
+/* about me design starts here */
+.aboutme-image{
+    margin-top: 70px;
+}
+.aboutme-image img{
+    height: 270px;
+    width: 250px;
+}
+.about-desc p{
+    text-align: left;
+}
+/* about me design ends here */
+/* experience design starts here */
+.experience{
+    padding: 1% 0%;
+}   
+/* experience design ends here */
+/* achievement contact design starts here */
+.achievement{
+    padding-right: 50px;
+ }
+ .contact button{
+    width: 120px;
+}
+ .contact-links{
+    position: relative;
+}
+.mediabtn{
+    position: absolute;
+    margin-top: 200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+/* achievement contact design ends here */
+/* footer section starts here */
+.footer-menu{
+    margin-top: 12px;
+}
+.footer-menu a{
+    display: inline;
+    margin: 10px;
+}
+/* footer section ends here */
